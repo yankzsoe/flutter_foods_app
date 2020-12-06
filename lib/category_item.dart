@@ -15,7 +15,7 @@ class CategoryItem extends StatelessWidget {
         print('${category.content} clicked');
         // Navigator.of(context).push(MaterialPageRoute(
         //     builder: (context) => FoodsPage(category: this.category)));
-        Navigator.pushNamed(context, '/FoodsPage',
+        Navigator.pushNamed(context, FoodsPage.routeName,
             arguments: {'category': category});
       },
       splashColor: Colors.red,

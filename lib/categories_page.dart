@@ -3,6 +3,7 @@ import 'package:second_app/category_item.dart';
 import './models/dummy_data.dart';
 
 class CategoriesPage extends StatelessWidget {
+  static const String routeName = '/CategoriesPage';
   @override
   Widget build(BuildContext context) {
     return GridView(
